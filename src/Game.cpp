@@ -83,6 +83,7 @@ void Game::Update() {
     );
 }
 
+
 void Game::Render() {
     SDL_SetRenderDrawColor(renderer, 21, 21, 21, 255);
     SDL_RenderClear(renderer);
